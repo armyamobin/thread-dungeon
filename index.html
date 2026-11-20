@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thread Dungeon — Daily Interactive Dungeon</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-icon">🧵</span>
+        <div>
+          <h1>Thread Dungeon</h1>
+          <p class="subtitle">Daily 6-hour community dungeon crawl</p>
+        </div>
+      </div>
+
+      <div class="user-controls">
+        <label class="handle-box">
+          <span>Voting as</span>
+          <input id="usernameInput" type="text" maxlength="24" placeholder="@adventurer" />
+        </label>
+        <button id="seedVotesBtn" class="btn btn-ghost" title="Simulate other players voting">👥 Simulate Votes</button>
+        <button id="resolveNowBtn" class="btn btn-accent" title="Close 6h voting window immediately">⏩ Close 6h Vote</button>
+      </div>
+    </header>
+
+    <!-- Party Stats HUD -->
+    <section class="party-hud" id="partyHud">
+      <div class="stat-card">
+        <span class="stat-label">Season</span>
+        <span class="stat-value" id="statSeason">1</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Room</span>
+        <span class="stat-value" id="statRoom">#1</span>
+      </div>
+      <div class="stat-card hp-card">
+        <div class="hp-header">
+          <span class="stat-label">Party HP</span>
+          <span class="stat-value" id="statHpText">100 / 100</span>
+        </div>
+        <div class="hp-bar-track">
+          <div class="hp-bar-fill" id="statHpBar" style="width: 100%"></div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Gold</span>
+        <span class="stat-value gold" id="statGold">🪙 10</span>
+      </div>
+      <div class="stat-card items-card">
+        <span class="stat-label">Party Pack</span>
+        <div class="items-list" id="statItems"></div>
+      </div>
+    </section>
+
+    <!-- Death / Season Restart Banner -->
+    <section class="death-banner hidden" id="deathBanner">
+      <div class="death-content">
+        <div class="death-emoji">💀⚰️💀</div>
+        <h2>The Party Has Fallen!</h2>
+        <p id="deathSummary">Your party perished in the dungeon.</p>
+        <button id="restartSeasonBtn" class="btn btn-danger">🔄 Start Next Season</button>
+      </div>
+    </section>
+
+    <main class="main-grid">
+      <!-- Current Room Post -->
+      <section class="thread-post" id="roomPost">
+        <div class="post-header">
+          <div class="post-meta">
+            <span class="badge badge-season" id="postBadge">Season 1 · Room #1</span>
+            <span class="badge badge-event" id="eventBadge">🔥 Torchlight Flickers</span>
+          </div>
+          <div class="countdown" id="countdownTimer">⏳ 06:00:00</div>
+        </div>
+
+        <h2 class="room-title" id="roomTitle">Loading Dungeon...</h2>
+
+        <pre class="emoji-scene" id="emojiScene">...</pre>
+
+        <p class="room-desc" id="roomDesc"></p>
+        <p class="event-note" id="eventNote"></p>
+
+        <div class="choices-section">
+          <div class="choices-header">
+            <span>Cast Your Vote (1 per user per room)</span>
+            <span class="total-votes" id="totalVotes">0 votes</span>
+          </div>
+
+          <div class="choices-list" id="choicesList">
+            <!-- Populated by app.js -->
+          </div>
+
+          <div class="recent-votes" id="recentVotes"></div>
+        </div>
+      </section>
+
+      <!-- Sidebar: Leaderboard + Adventure Log -->
+      <aside class="sidebar">
+        <section class="panel">
+          <h3>🏆 Most Decisive Voters</h3>
+          <p class="panel-sub">Players whose vote matched the majority most often</p>
+          <ul class="leaderboard-list" id="leaderboardList">
+            <li class="empty-state">No resolved rooms yet.</li>
+          </ul>
+        </section>
+
+        <section class="panel">
+          <h3>📜 Thread Adventure Log</h3>
+          <div class="history-list" id="historyList">
+            <p class="empty-state">No rooms resolved yet this season.</p>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h3>🏛️ Season Hall of Fame</h3>
+          <div class="history-list" id="hallOfFameList">
+            <p class="empty-state">No completed seasons yet.</p>
+          </div>
+        </section>
+      </aside>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

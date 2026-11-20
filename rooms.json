@@ -1,0 +1,872 @@
+[
+  {
+    "id": 1,
+    "title": "The Mossy Threshold",
+    "emojiScene": "🌿🧱🚪🧱🌿\n  🕯️  💀  🕯️\n    ⚔️🛡️",
+    "description": "A rusted iron gate groans open into a damp stone vestibule. A skeletal sentry rattles to life, blocking the archway.",
+    "choices": {
+      "fight": {
+        "label": "Smash the skeleton with your weapon",
+        "outcomeText": "You shatter its ribcage in one clean strike! A few silver coins spill from its pouch.",
+        "hpDelta": -5,
+        "goldDelta": 15,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Slip past along the shadowed wall",
+        "outcomeText": "You hug the moss-slicked stones and glide past unnoticed.",
+        "hpDelta": 0,
+        "goldDelta": 5,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Toss it a shiny button as a toll",
+        "outcomeText": "The skeleton inspects the button, nods solemnly, and hands you a tarnished key.",
+        "hpDelta": 0,
+        "goldDelta": -2,
+        "itemGain": "🗝️ Tarnished Key"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "title": "Goblin Tollbooth",
+    "emojiScene": "🪵👺💰👺🪵\n  🚧  🪙  🚧\n   🔥🍲🔥",
+    "description": "Two wiry goblins have set up a makeshift wooden barricade across a narrow bridge over a dark chasm.",
+    "choices": {
+      "fight": {
+        "label": "Charge the barricade",
+        "outcomeText": "They scatter in panic, though one nicks your arm with a rusty fork. You loot their toll jar!",
+        "hpDelta": -12,
+        "goldDelta": 28,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Shimmy underneath the bridge",
+        "outcomeText": "You swing across the rafters below while they argue over mushroom soup.",
+        "hpDelta": -3,
+        "goldDelta": 0,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Pay the 10g toll and ask for tips",
+        "outcomeText": "The goblins pocket your gold and toss you a slightly chewed healing herb.",
+        "hpDelta": 10,
+        "goldDelta": -10,
+        "itemGain": "🌿 Goblin Herb"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "title": "The Whispering Well",
+    "emojiScene": "🪨🕳️✨🕳️🪨\n  💧 🪙 💧\n    👻💬",
+    "description": "An ancient stone well glows with pale cyan light. Faint voices echo from the depths, asking for an offering.",
+    "choices": {
+      "fight": {
+        "label": "Drop a lit torch down the shaft",
+        "outcomeText": "A shriek erupts from below! Hot steam blasts your face, but a ruby pops onto the rim.",
+        "hpDelta": -15,
+        "goldDelta": 40,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Quietly siphon the glowing water",
+        "outcomeText": "You fill a vial with luminescent water without waking whatever sleeps below.",
+        "hpDelta": 12,
+        "goldDelta": 0,
+        "itemGain": "🧪 Glow Vial"
+      },
+      "bargain": {
+        "label": "Drop 5 gold into the well",
+        "outcomeText": "The whispers turn into a warm chorus, mending your wounds.",
+        "hpDelta": 20,
+        "goldDelta": -5,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 4,
+    "title": "Alchemist's Ruined Lab",
+    "emojiScene": "⚗️🧪💥🧪⚗️\n  📜 🧫 🔮\n   🐀💨",
+    "description": "Shattered glassware litters the floor. A giant mutated rat guards a bubbling cauldron of violet brew.",
+    "choices": {
+      "fight": {
+        "label": "Slay the mutated rat",
+        "outcomeText": "The rat bites hard before you pin it down. You claim a potion from the shelf.",
+        "hpDelta": -14,
+        "goldDelta": 10,
+        "itemGain": "❤️‍🩹 Minor Potion"
+      },
+      "sneak": {
+        "label": "Swipe a vial while it sniffs a cheese crust",
+        "outcomeText": "Clean heist! You pocket a mysterious elixir and slip out.",
+        "hpDelta": 0,
+        "goldDelta": 8,
+        "itemGain": "🧪 Violet Elixir"
+      },
+      "bargain": {
+        "label": "Offer it your rations in trade",
+        "outcomeText": "The surprisingly polite rat pushes a velvet pouch of coins toward you.",
+        "hpDelta": -2,
+        "goldDelta": 22,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 5,
+    "title": "The Mimic's Parlor",
+    "emojiScene": "🕯️🪑📦🪑🕯️\n   👀🦷👅\n   🪙✨🪙",
+    "description": "A plush velvet armchair sits beside an ornate treasure chest. Wait—did the chest just blink?",
+    "choices": {
+      "fight": {
+        "label": "Strike the chest before it lunges",
+        "outcomeText": "It snaps its wooden jaws! You pry it open after a brutal tussle and grab the hoard.",
+        "hpDelta": -18,
+        "goldDelta": 45,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Tip-toe around the rug",
+        "outcomeText": "You leave the suspicious chest alone and pocket a stray coin on the mantle.",
+        "hpDelta": 0,
+        "goldDelta": 6,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Compliment its mahogany finish",
+        "outcomeText": "Flattered, the mimic purrs like a cat and spits out a shiny ring.",
+        "hpDelta": 0,
+        "goldDelta": 15,
+        "itemGain": "💍 Mimic Ring"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "title": "Spider Silk Gallery",
+    "emojiScene": "🕸️🕷️🕸️🕷️🕸️\n  🦴  💎  🦴\n   🕯️💨",
+    "description": "Thick silver webs drape from ceiling to floor. A diamond glints at the center of the largest web.",
+    "choices": {
+      "fight": {
+        "label": "Burn the webs and slash the broodmother",
+        "outcomeText": "Venomous fangs graze your shoulder, but you claim the diamond!",
+        "hpDelta": -20,
+        "goldDelta": 55,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Cut a single strand and pluck the gem",
+        "outcomeText": "Your steady hands barely vibrate the silk. You escape with the prize!",
+        "hpDelta": 0,
+        "goldDelta": 35,
+        "itemGain": "🕸️ Silk Thread"
+      },
+      "bargain": {
+        "label": "Trade a shiny trinket for safe passage",
+        "outcomeText": "The spider tilts its eight eyes, accepts the coin, and lowers a silk ladder.",
+        "hpDelta": 0,
+        "goldDelta": -8,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 7,
+    "title": "Crypt of the Sleeping Knight",
+    "emojiScene": "⚰️🛡️⚔️🛡️⚰️\n  🕯️  👻  🕯️\n   👑✨",
+    "description": "A marble sarcophagus lies open. The spectral knight atop it polishes an ethereal greatsword.",
+    "choices": {
+      "fight": {
+        "label": "Challenge the knight to a duel",
+        "outcomeText": "His ghostly blade chills your bones, but he yields and bestows his crest.",
+        "hpDelta": -16,
+        "goldDelta": 25,
+        "itemGain": "🛡️ Knight's Crest"
+      },
+      "sneak": {
+        "label": "Loot the side-altar while his back is turned",
+        "outcomeText": "You scoop up ancient funerary coins without a sound.",
+        "hpDelta": 0,
+        "goldDelta": 20,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Kneel and pledge honor to his order",
+        "outcomeText": "The knight's spirit glows warmly, blessing your party with vigor.",
+        "hpDelta": 18,
+        "goldDelta": 0,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 8,
+    "title": "The Lava Forge",
+    "emojiScene": "🌋🔥🔨🔥🌋\n  ⚒️ 👹 ⚒️\n   🪙💎",
+    "description": "Heat radiates from a magma trench. A horned smith hammers a glowing blade on an obsidian anvil.",
+    "choices": {
+      "fight": {
+        "label": "Ambush the smith at the anvil",
+        "outcomeText": "Sparks fly! You take a burn but seize a pouch of fire-opals.",
+        "hpDelta": -22,
+        "goldDelta": 50,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Cool your boots and cross the catwalk",
+        "outcomeText": "You endure the blistering air and slip past the forge.",
+        "hpDelta": -5,
+        "goldDelta": 5,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Pay 15g to sharpen your weapons",
+        "outcomeText": "The smith grins and tempers your gear with dragon-ash.",
+        "hpDelta": 5,
+        "goldDelta": -15,
+        "itemGain": "🔥 Ember Blade"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "title": "Mushroom Grotto",
+    "emojiScene": "🍄🟣🍄🔵🍄\n  🐸 ✨ 🐸\n   🌿💧",
+    "description": "Bioluminescent fungi illuminate a humid cavern. Giant toads croak in rhythmic harmony.",
+    "choices": {
+      "fight": {
+        "label": "Slice through the spore-caps",
+        "outcomeText": "Toxic spores burst in your face! You cough violently but find truffles.",
+        "hpDelta": -15,
+        "goldDelta": 25,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Forage only the safe blue caps",
+        "outcomeText": "You gather soothing moss and slip out before the toads notice.",
+        "hpDelta": 15,
+        "goldDelta": 0,
+        "itemGain": "🍄 Blue Cap"
+      },
+      "bargain": {
+        "label": "Hum along with the toad chorus",
+        "outcomeText": "The toads croak approvingly and spit up a gleaming pearl.",
+        "hpDelta": 5,
+        "goldDelta": 20,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 10,
+    "title": "The Clockwork Vault",
+    "emojiScene": "⚙️🕰️🔐🕰️⚙️\n  🤖  💎  🤖\n   ⚡🔧",
+    "description": "Brass gears turn in the walls. A ticking automaton guards a locked vault door.",
+    "choices": {
+      "fight": {
+        "label": "Smash its main gear",
+        "outcomeText": "Electric arcs zap your hands, but the automaton collapses and the vault pops open!",
+        "hpDelta": -18,
+        "goldDelta": 48,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Pick the lock between gear-ticks",
+        "outcomeText": "Click! You time the pendulum perfectly and grab a brass compass.",
+        "hpDelta": 0,
+        "goldDelta": 18,
+        "itemGain": "🧭 Brass Compass"
+      },
+      "bargain": {
+        "label": "Feed it a drop of oil and 5g",
+        "outcomeText": "It whirs happily and dispenses a handful ofminted tokens.",
+        "hpDelta": 0,
+        "goldDelta": 15,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 11,
+    "title": "Cursed Mirror Hall",
+    "emojiScene": "🪞✨🪞✨🪞\n  👤 ❓ 👤\n   💜🔮",
+    "description": "Dozens of gilded mirrors line the corridor. Your reflection grins back—a second too late.",
+    "choices": {
+      "fight": {
+        "label": "Shatter the grinning mirror",
+        "outcomeText": "Glass shards slice your arms, but a shadow-gem clatters to the floor.",
+        "hpDelta": -16,
+        "goldDelta": 35,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Walk backward with eyes closed",
+        "outcomeText": "You navigate by touch and emerge unscathed.",
+        "hpDelta": 0,
+        "goldDelta": 5,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Ask your reflection for advice",
+        "outcomeText": "It whispers a shortcut and hands you a luck charm through the glass.",
+        "hpDelta": 8,
+        "goldDelta": 10,
+        "itemGain": "🍀 Mirror Charm"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "title": "The Bone Tavern",
+    "emojiScene": "🍺💀🎻💀🍺\n  🪑 🍖 🪑\n   🪙🎲",
+    "description": "A spectral bartender polishes a skull mug. Undead patrons clink tankards in silent revelry.",
+    "choices": {
+      "fight": {
+        "label": "Start a barroom brawl",
+        "outcomeText": "Chairs fly! You take a beating but swipe the tip jar.",
+        "hpDelta": -20,
+        "goldDelta": 38,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Swipe a roasted leg of... something",
+        "outcomeText": "You snag a hearty meal from the kitchen pass and bolt.",
+        "hpDelta": 12,
+        "goldDelta": 0,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Buy a round for the dead (12g)",
+        "outcomeText": "The ghosts cheer! They restore your spirits and gift you a lucky die.",
+        "hpDelta": 22,
+        "goldDelta": -12,
+        "itemGain": "🎲 Bone Die"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "title": "Frozen Ossuary",
+    "emojiScene": "❄️💀🧊💀❄️\n  🌬️ 💎 🌬️\n   🧥🔥",
+    "description": "Icicles hang like daggers. Frost-wraiths drift between frozen pillars.",
+    "choices": {
+      "fight": {
+        "label": "Shatter the frost-wraiths",
+        "outcomeText": "Frostbite numbs your fingers, but you claim their icy core.",
+        "hpDelta": -17,
+        "goldDelta": 32,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Slide silently across the ice",
+        "outcomeText": "You glide past the wraiths like a shadow.",
+        "hpDelta": -2,
+        "goldDelta": 8,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Share warmth from your torch",
+        "outcomeText": "A wraith sighs in gratitude and melts a path to a hidden stash.",
+        "hpDelta": 5,
+        "goldDelta": 18,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 14,
+    "title": "The Gargoyle Perch",
+    "emojiScene": "🗿🦇⚡🦇🗿\n  🌩️ 🏰 🌩️\n   🪨💰",
+    "description": "A stone gargoyle crouches above a crumbling balcony. Its eyes flicker with lightning.",
+    "choices": {
+      "fight": {
+        "label": "Topple the gargoyle off the ledge",
+        "outcomeText": "It claws your armor before plunging into the abyss. You loot its nest.",
+        "hpDelta": -19,
+        "goldDelta": 42,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Crawl beneath its line of sight",
+        "outcomeText": "You inch past while thunder masks your footsteps.",
+        "hpDelta": 0,
+        "goldDelta": 10,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Offer it a shiny coin for its nest",
+        "outcomeText": "The gargoyle nods and drops a gleaming feather-charm.",
+        "hpDelta": 0,
+        "goldDelta": -5,
+        "itemGain": "🪶 Stone Feather"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "title": "Submerged Catacombs",
+    "emojiScene": "🌊💀🐟💀🌊\n  🫧 🪙 🫧\n   🐊💨",
+    "description": "Waist-deep black water floods this hallway. Something scaly ripples beneath the surface.",
+    "choices": {
+      "fight": {
+        "label": "Harpoon the lurker in the dark",
+        "outcomeText": "A blind cave-gator thrashes! You win, bruised and soaked, with a pearl.",
+        "hpDelta": -18,
+        "goldDelta": 36,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Wade slowly without making ripples",
+        "outcomeText": "You cross the flooded hall without disturbing the water.",
+        "hpDelta": 0,
+        "goldDelta": 6,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Toss a piece of jerky to distract it",
+        "outcomeText": "It snaps up the snack and nudges a sunken chest toward you.",
+        "hpDelta": 0,
+        "goldDelta": 24,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 16,
+    "title": "The Librarian's Study",
+    "emojiScene": "📚🕯️🦉🕯️📚\n  📜 🔮 📜\n   🪶✨",
+    "description": "Towering bookshelves lean precariously. A giant horned owl peers at you over spectacles.",
+    "choices": {
+      "fight": {
+        "label": "Snatch the glowing tome by force",
+        "outcomeText": "The owl shrieks and talons your face, but you grab the tome!",
+        "hpDelta": -15,
+        "goldDelta": 30,
+        "itemGain": "📖 Arcane Tome"
+      },
+      "sneak": {
+        "label": "Borrow a scroll while it preens",
+        "outcomeText": "You slip a healing scroll into your pack.",
+        "hpDelta": 14,
+        "goldDelta": 0,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Return an overdue bookmark (5g)",
+        "outcomeText": "The owl hoots with delight and stamps your hand with a ward.",
+        "hpDelta": 18,
+        "goldDelta": -5,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 17,
+    "title": "Trapdoor Gauntlet",
+    "emojiScene": "⚠️🪜🕳️🪜⚠️\n  🗡️ ⚙️ 🗡️\n   🪙✨",
+    "description": "Swinging pendulums and pressure plates guard a narrow stone causeway.",
+    "choices": {
+      "fight": {
+        "label": "Jam the gears with your weapon",
+        "outcomeText": "A blade grazes your ribs, but the trap halts and reveals a hidden stash.",
+        "hpDelta": -16,
+        "goldDelta": 35,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Dash through the rhythm",
+        "outcomeText": "Pure agility! You clear the gauntlet without a scratch.",
+        "hpDelta": 0,
+        "goldDelta": 15,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Pay a passing kobold trap-setter (10g)",
+        "outcomeText": "He pulls a hidden lever, disabling every blade.",
+        "hpDelta": 5,
+        "goldDelta": -10,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 18,
+    "title": "The Dragon's Nursery",
+    "emojiScene": "🥚🔥🐉🔥🥚\n  💎 🪙 💎\n   💨🛡️",
+    "description": "Three warm dragon eggs nestle in a pile of gold. A wyrmling naps nearby, snoring smoke.",
+    "choices": {
+      "fight": {
+        "label": "Slay the wyrmling and loot the nest",
+        "outcomeText": "Fiery breath scorches your cloak, but the gold pile is yours!",
+        "hpDelta": -25,
+        "goldDelta": 70,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Pocket a handful of coins quietly",
+        "outcomeText": "You tiptoe out with warm gold before the wyrmling wakes.",
+        "hpDelta": 0,
+        "goldDelta": 28,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Scratch behind its scaly ears",
+        "outcomeText": "It purrs like a furnace and nudges a dragonscale into your hand.",
+        "hpDelta": 10,
+        "goldDelta": 10,
+        "itemGain": "🐉 Wyrm Scale"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "title": "Shadow Market",
+    "emojiScene": "🏮🎭💰🎭🏮\n  🧙‍♂️ ⚖️ 🧝‍♀️\n   🧪🗡️",
+    "description": "Hooded figures trade contraband by purple lantern light. A merchant beckons you over.",
+    "choices": {
+      "fight": {
+        "label": "Rob the merchant's stall",
+        "outcomeText": "Bodyguards jump you! You escape battered with a handful of gems.",
+        "hpDelta": -22,
+        "goldDelta": 45,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Pickpocket a distracted noble",
+        "outcomeText": "Smooth fingers! You lift a fat coin purse.",
+        "hpDelta": 0,
+        "goldDelta": 25,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Buy a mystery bundle (15g)",
+        "outcomeText": "Inside is a potent healing draught and a silver charm!",
+        "hpDelta": 25,
+        "goldDelta": -15,
+        "itemGain": "🧿 Silver Charm"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "title": "The Blood Altar",
+    "emojiScene": "🩸🗿🔥🗿🩸\n  🕯️ ⚔️ 🕯️\n   💀✨",
+    "description": "A crimson obelisk pulses like a heartbeat. Dark energy crackles around a golden chalice.",
+    "choices": {
+      "fight": {
+        "label": "Shatter the obelisk",
+        "outcomeText": "A shockwave knocks you back, but the chalice rolls to your feet!",
+        "hpDelta": -20,
+        "goldDelta": 55,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Swap the chalice with a stone",
+        "outcomeText": "Classic swap! The altar doesn't notice.",
+        "hpDelta": 0,
+        "goldDelta": 35,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Offer a drop of blood for power",
+        "outcomeText": "It stings, but dark gold materializes in your pouch.",
+        "hpDelta": -10,
+        "goldDelta": 40,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 21,
+    "title": "Crystal Cavern",
+    "emojiScene": "💎✨💎✨💎\n  🦇 🌈 🦇\n   ⛏️🪙",
+    "description": "Prism-like crystals refract your torchlight into rainbows. Bat-winged imps chatter above.",
+    "choices": {
+      "fight": {
+        "label": "Swat the imps and mine the wall",
+        "outcomeText": "They nip your ears, but you chip off a massive sapphire!",
+        "hpDelta": -14,
+        "goldDelta": 45,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Gather loose crystal shards",
+        "outcomeText": "Quietly filling your pockets with sparkles.",
+        "hpDelta": 0,
+        "goldDelta": 22,
+        "itemGain": "💎 Prism Shard"
+      },
+      "bargain": {
+        "label": "Trade a shiny coin for a crystal",
+        "outcomeText": "The imps love shiny things and drop a healing geode.",
+        "hpDelta": 15,
+        "goldDelta": -5,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 22,
+    "title": "The Puppeteer's Stage",
+    "emojiScene": "🎭🧵🪵🧵🎭\n  🤡 ⚔️ 🤡\n   🕯️✨",
+    "description": "Wooden marionettes dance on invisible strings across a velvet stage.",
+    "choices": {
+      "fight": {
+        "label": "Cut the strings and smash the puppets",
+        "outcomeText": "Splinters fly! One lands a lucky kick before they collapse.",
+        "hpDelta": -15,
+        "goldDelta": 30,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Crawl behind the stage curtains",
+        "outcomeText": "You slip backstage and find the prop-master's coin box.",
+        "hpDelta": 0,
+        "goldDelta": 22,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Applaud their performance",
+        "outcomeText": "The puppets bow deeply and toss you a golden rose.",
+        "hpDelta": 10,
+        "goldDelta": 15,
+        "itemGain": "🌹 Golden Rose"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "title": "Blighted Greenhouse",
+    "emojiScene": "🌿🥀🪴🥀🌿\n  🐛 💀 🐛\n   🧪💧",
+    "description": "Carnivorous vines choke a shattered glass dome. A golden fruit hangs from the central tree.",
+    "choices": {
+      "fight": {
+        "label": "Hack through the snapping vines",
+        "outcomeText": "Thorns tear your sleeves, but you claim the golden fruit!",
+        "hpDelta": -16,
+        "goldDelta": 20,
+        "itemGain": "🍎 Golden Fruit"
+      },
+      "sneak": {
+        "label": "Slip past while the plants sleep",
+        "outcomeText": "You tiptoe between the snoring flytraps.",
+        "hpDelta": 5,
+        "goldDelta": 5,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Water the central tree with your flask",
+        "outcomeText": "The vines part gratefully, revealing a buried coin jar.",
+        "hpDelta": 12,
+        "goldDelta": 25,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 24,
+    "title": "The Sphinx's Riddle",
+    "emojiScene": "🦁🗿❓🗿🦁\n  📜 ✨ 📜\n   🪙💎",
+    "description": "A stone sphinx blocks the archway. Its eyes glow as it asks: 'What has keys but opens no locks?'",
+    "choices": {
+      "fight": {
+        "label": "Refuse the riddle and attack",
+        "outcomeText": "The sphinx swats you with a stone paw! You barely scramble past.",
+        "hpDelta": -24,
+        "goldDelta": 15,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Squeeze through the gap behind its tail",
+        "outcomeText": "Tight fit, but you make it through!",
+        "hpDelta": 0,
+        "goldDelta": 5,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Answer: 'A piano!'",
+        "outcomeText": "The sphinx purrs: 'Correct.' It grants you passage and a royal bounty.",
+        "hpDelta": 15,
+        "goldDelta": 40,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 25,
+    "title": "Sunken Treasury",
+    "emojiScene": "💰👑💎👑💰\n  🐍 🪙 🐍\n   ⚔️✨",
+    "description": "Mountains of tarnished coins glitter in a domed chamber. A giant cobra coils atop the crown.",
+    "choices": {
+      "fight": {
+        "label": "Battle the giant cobra",
+        "outcomeText": "Venomous fangs graze you, but the crown is yours!",
+        "hpDelta": -22,
+        "goldDelta": 65,
+        "itemGain": "👑 Tarnished Crown"
+      },
+      "sneak": {
+        "label": "Scoop coins from the outer edge",
+        "outcomeText": "You fill your pockets without waking the serpent.",
+        "hpDelta": 0,
+        "goldDelta": 30,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Play a calming tune",
+        "outcomeText": "The cobra sways peacefully and lets you take a handful of gold.",
+        "hpDelta": 0,
+        "goldDelta": 25,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 26,
+    "title": "The Echoing Chasm",
+    "emojiScene": "🕳️🌉💨🌉🕳️\n  🦅 ⚡ 🦅\n   🧗🪙",
+    "description": "A swaying rope bridge spans a bottomless abyss. Harpies circle overhead.",
+    "choices": {
+      "fight": {
+        "label": "Fend off the harpies mid-bridge",
+        "outcomeText": "Talons rake your shoulders, but you knock one into the void and loot its pouch.",
+        "hpDelta": -18,
+        "goldDelta": 35,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Cross under cover of mist",
+        "outcomeText": "You make it across before they spot you.",
+        "hpDelta": 0,
+        "goldDelta": 10,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Toss them a shiny trinket (8g)",
+        "outcomeText": "They dive for the coin, leaving the bridge clear.",
+        "hpDelta": 0,
+        "goldDelta": -8,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 27,
+    "title": "Hall of Fallen Heroes",
+    "emojiScene": "🗿⚔️🛡️⚔️🗿\n  🕯️ 👻 🕯️\n   🏆✨",
+    "description": "Statues of past adventurers line the hall. A warm brazier crackles in the center.",
+    "choices": {
+      "fight": {
+        "label": "Pry the gems from a statue's eyes",
+        "outcomeText": "A curse zaps your fingers, but the rubies are real!",
+        "hpDelta": -15,
+        "goldDelta": 45,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Rest quietly by the brazier",
+        "outcomeText": "The warm fire mends your tired limbs.",
+        "hpDelta": 20,
+        "goldDelta": 0,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Leave a 5g tribute for the fallen",
+        "outcomeText": "A statue's spirit salutes you, granting a blessing of vitality!",
+        "hpDelta": 30,
+        "goldDelta": -5,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 28,
+    "title": "The Slime Pit",
+    "emojiScene": "🟢🧪🟢🧪🟢\n  🫧 💀 🫧\n   ⚔️🪙",
+    "description": "A giant gelatinous cube wobbles down the corridor, digesting a shiny sword inside.",
+    "choices": {
+      "fight": {
+        "label": "Slice into the gelatinous cube",
+        "outcomeText": "Acid burns your boots, but you fish out the sword and coins!",
+        "hpDelta": -20,
+        "goldDelta": 40,
+        "itemGain": "🗡️ Acid-Etched Blade"
+      },
+      "sneak": {
+        "label": "Press flat into an alcove",
+        "outcomeText": "It squelches right past you without noticing.",
+        "hpDelta": 0,
+        "goldDelta": 5,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Feed it some old rations",
+        "outcomeText": "It happily absorbs the food and spits out a clean gold bar.",
+        "hpDelta": 0,
+        "goldDelta": 25,
+        "itemGain": null
+      }
+    }
+  },
+  {
+    "id": 29,
+    "title": "Obsidian Gate",
+    "emojiScene": "🖤🚪🔥🚪🖤\n  👹 ⚔️ 👹\n   💎✨",
+    "description": "Two towering demon guards flank a gate of black glass. Beyond lies the inner sanctum.",
+    "choices": {
+      "fight": {
+        "label": "Brawl through the demon guards",
+        "outcomeText": "Brutal clash! You break through, bleeding, with their war-chest.",
+        "hpDelta": -26,
+        "goldDelta": 60,
+        "itemGain": null
+      },
+      "sneak": {
+        "label": "Slip through during shift change",
+        "outcomeText": "You dart through the shadows while they trade helmets.",
+        "hpDelta": -4,
+        "goldDelta": 15,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Bribe them with 20g",
+        "outcomeText": "They pocket the gold and swing the obsidian gate wide.",
+        "hpDelta": 0,
+        "goldDelta": -20,
+        "itemGain": "🔑 Sanctum Key"
+      }
+    }
+  },
+  {
+    "id": 30,
+    "title": "The Lich's Sanctum",
+    "emojiScene": "💀👑⚡👑💀\n  🔮 🐉 🔮\n   🏆💎",
+    "description": "The Lich King rises from a throne of bone! Arcane lightning crackles across the chamber.",
+    "choices": {
+      "fight": {
+        "label": "Unleash everything you have!",
+        "outcomeText": "An epic clash! You shatter his phylactery and claim the royal hoard!",
+        "hpDelta": -28,
+        "goldDelta": 100,
+        "itemGain": "👑 Lich's Crown"
+      },
+      "sneak": {
+        "label": "Swipe the phylactery from behind",
+        "outcomeText": "Daring heist! You weaken the Lich and escape with a treasure.",
+        "hpDelta": -10,
+        "goldDelta": 60,
+        "itemGain": null
+      },
+      "bargain": {
+        "label": "Offer a truce and 25g tribute",
+        "outcomeText": "Amused by your audacity, the Lich spares you and tosses a relic.",
+        "hpDelta": 10,
+        "goldDelta": -25,
+        "itemGain": "🔮 Lich's Orb"
+      }
+    }
+  }
+]
